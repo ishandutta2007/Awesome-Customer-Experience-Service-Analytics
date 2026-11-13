@@ -1,6 +1,6 @@
 # Awesome-Customer-Experience-Service-Analytics
 
-# Top Customer Experience & Service Analytics Ecosystem
+## Top Customer Experience & Service Analytics Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Support Ticket Analytics, CSAT Measurement & Customer Journey Intelligence*  
