@@ -59,9 +59,9 @@ A comprehensive comparison of leading commercial customer experience and service
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated self-hosted software and developer toolkits for customer analytics, customer support intelligence, and experience tracking. **Sorted in descending order by GitHub Stars.**
+Curated self-hosted software and developer toolkits for customer analytics, customer support intelligence, and experience tracking. **Sorted in descending order by GitHub_Stars.**
 
-| Project | Star Badge | Description |
+| Project | Stars_Badge | Description |
 |---------|------------|-------------|
 | **[PostHog](https://github.com/PostHog/posthog)** | [![Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers) | **All-in-one open-source product & customer experience analytics suite.** Provides session replay, customer event tracking, funnel intelligence, user path analysis, heatmaps, feature flags, and survey collection. |
 | **[Chatwoot](https://github.com/chatwoot/chatwoot)** | [![Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers) | **Open-source omnichannel customer engagement & support platform.** Direct open-source alternative to Intercom, Zendesk, and Drift. Includes live conversation analytics, first-response time tracking, CSAT ratings, and agent performance dashboards. |
@@ -97,7 +97,7 @@ Contributions are warmly welcomed! Help us keep this directory up-to-date and ac
 1. 🍴 Fork this repository.
 2. 🌿 Create a new feature branch (`git checkout -b feature/new-analytics-tool`).
 3. 📝 Add your entry to `README.md` following the alphabetical/sorting structure and table format.
-4. 💡 Ensure you provide factual starting pricing, exact free tier limitations, star badges, and official links.
+4. 💡 Ensure you provide factual starting pricing, exact free tier limitations, Stars_Badges, and official links.
 5. 🚀 Submit a Pull Request with a clear description of the project.
 
 ---
