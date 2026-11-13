@@ -15,25 +15,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global customer experience (CX) and service analytics market is estimated at approximately $14 billion to $20 billion, projected to surge beyond $70 billion by 2032 at a CAGR of 15%–18%. The sector is moderately fragmented with ongoing consolidation: mega-cloud and enterprise CRM titans (Salesforce, Microsoft, ServiceNow, Google Cloud) command substantial market share through native BI and workflow suites, while specialized CX platforms and point-solution AI vendors compete intensely in customer journey intelligence and voice-of-customer analytics.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Zendesk Explore](https://www.zendesk.com/)** | Native analytics and reporting for Zendesk Support. Prebuilt dashboards for ticket volume, agent performance, CSAT, and SLA compliance. Custom reports with drag-and-drop builder. | Quote-only (add-on to Zendesk subscription) | No free tier; trial via Zendesk sales |
-| **[Freshworks Analytics](https://www.freshworks.com/)** | Analytics module within Freshdesk and Freshservice. Reports on ticket trends, agent efficiency, SLA metrics, and customer satisfaction. | Quote-only (bundled with Freshworks plans) | Free plan for Freshdesk (1–2 agents); analytics limited on free tier |
-| **[Salesforce CRM Analytics](https://www.salesforce.com/)** | Analytics platform within Salesforce ecosystem. Can analyze service cases, CSAT surveys, and customer interaction data alongside CRM records. | Quote-only (per-user add-on) | No free tier; trial via Salesforce sales |
-| **[ServiceNow Performance Analytics](https://www.servicenow.com/)** | Enterprise analytics for ITSM and customer service workflows. Tracks KPIs, SLA attainment, and service performance trends with time-series data. | Quote-only (enterprise contract) | No free tier; demo via sales |
-| **[Tableau](https://www.tableau.com/)** | Visual analytics platform commonly used for CX dashboards. Can connect to Zendesk, Salesforce, and other service data sources for custom reporting. | Quote-only (per-user); Tableau Public free for public data | Tableau Public free; 14-day trial for full platform |
-| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | Microsoft's BI platform for building CX dashboards from service data. Integrates with Dynamics 365, Excel, and Azure. | Pro: $14/user/month; Premium Per User: $24/user/month | Free: Power BI Desktop (authoring only); 60-day trial |
-| **[Looker (Google Cloud)](https://looker.com/)** | BI platform with semantic modeling (LookML) for governed CX metrics. | Quote-only (enterprise contract) | No free tier; trial via Google Cloud sales |
-| **[Domo](https://www.domo.com/)** | Cloud BI with drag-and-drop dashboard builder and pre-built CX templates. | Quote-only (consumption-based) | No free tier; demo via sales |
-| **[Sisense](https://www.sisense.com/)** | Embedded analytics platform for product teams wanting in-app CX dashboards. | Quote-only (custom enterprise) | No free tier; demo via sales |
-| **[Klipfolio](https://www.klipfolio.com/)** | Dashboard builder focused on real-time business monitoring with pre-built CX integrations. | Quote-only (per-user) | 14-day trial available |
+| Product | Company Size (Market Cap / Valuation / ARR) | Starting Price | Free Tier / Free Trial Limits | Description |
+|---------|---------------------------------------------|----------------|-------------------------------|-------------|
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | ~$3.1T Market Cap (Microsoft) / $245B+ ARR | $14 / user / month (Power BI Pro) | Free forever: Power BI Desktop (local report authoring only); 60-day free trial for Power BI Pro cloud features | Microsoft's BI platform for building CX dashboards from service data. Integrates with Dynamics 365, Excel, and Azure. |
+| **[Looker (Google Cloud)](https://looker.com/)** | ~$2.1T Market Cap (Alphabet) / $45B+ Cloud ARR | $5,000 / month ($60,000 / year base Standard tier) | Free forever for Looker Studio (basic dashboarding); core Looker BI requires sales-provisioned evaluation/PoC (no self-serve free trial) | Enterprise BI platform with semantic modeling (LookML) and governed CX metrics across Google Cloud data warehouses. |
+| **[Salesforce CRM Analytics](https://www.salesforce.com/)** | ~$180B Market Cap / $41.5B ARR | $140 / user / month (Growth tier, annual billing) | 30-day free trial for Salesforce CRM / Analytics trial orgs; no free forever tier | Analytics platform within Salesforce ecosystem. Analyzes service cases, CSAT surveys, and customer interaction data alongside CRM records. |
+| **[Tableau](https://www.tableau.com/)** | ~$180B Market Cap (Salesforce parent; $15.7B acquisition) | $15 / user / month (Viewer) / $75 / user / month (Creator, min 1 required) | Free forever: Tableau Public (all workbooks must be publicly shared); 14-day full platform free trial for Tableau Cloud | Visual analytics platform commonly used for CX dashboards. Connects to Zendesk, Salesforce, and service databases. |
+| **[ServiceNow Performance Analytics](https://www.servicenow.com/)** | ~$104B Market Cap / $15.4B ARR | ~$100 / fulfiller / month (bundled starting in ITSM/CSM Professional tiers) | Free forever: Personal Developer Instance (PDI sandbox for developer testing only); no commercial production free trial | Enterprise analytics for ITSM and customer service workflows. Tracks KPIs, SLA attainment, and service performance trends. |
+| **[Zendesk Explore](https://www.zendesk.com/)** | ~$10.2B Private Valuation / ~$2B ARR | $19 / agent / month (Support Team) / $55 / agent / month (Suite Team) | 14-day free trial (access to Zendesk Suite Professional features, extendable once by 14 days upon request); no free forever tier | Native analytics and reporting for Zendesk Support. Prebuilt dashboards for ticket volume, agent performance, CSAT, and SLA compliance. |
+| **[Freshworks Analytics](https://www.freshworks.com/)** | ~$3.3B Market Cap / ~$1B ARR | $19 / agent / month (Growth plan, annual billing) | Free forever: Freshdesk Free Plan for up to 2 agents (basic ticketing & knowledge base, limited analytics); 14-day trial for paid tiers | Analytics module within Freshdesk and Freshservice. Reports on ticket trends, agent efficiency, SLA metrics, and customer satisfaction. |
+| **[Sisense](https://www.sisense.com/)** | ~$1B+ Private Valuation / ~$140M ARR | ~$25,000 / year (Self-Serve / Essential starting tier) | 7-day free trial with full platform access (no credit card required); no free forever tier | Embedded analytics platform for product and CX teams wanting white-labeled, in-app customer experience dashboards. |
+| **[Domo](https://www.domo.com/)** | ~$150M Market Cap / ~$318M ARR | ~$30,000 / year (pre-purchased consumption credit model) | 30-day free trial with unlimited user seats and full platform data connectors; no free forever tier | Cloud BI with drag-and-drop dashboard builder and pre-built CX and service operations templates. |
+| **[Klipfolio](https://www.klipfolio.com/)** | ~$35M Private Valuation / ~$15M ARR | $120 / month (Base plan, annual billing) | 14-day free trial of Klips (full feature access, up to plan limits); PowerMetrics has a limited free forever tier (2 metrics) | Dashboard builder focused on real-time business monitoring with pre-built CX integrations and unlimited dashboard viewers. |
 
 ## Open-Source GitHub Projects
 
