@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .bg { fill: url(#bgGrad); }
+    .grid-line { stroke: #334155; stroke-opacity: 0.25; stroke-width: 1; }
+    .title-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: url(#titleGrad);
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 19px;
+      fill: #cbd5e1;
+      letter-spacing: 0.2px;
+    }
+    .tagline-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      fill: #38bdf8;
+    }
+    .pill-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .kpi-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      letter-spacing: 1px;
+      fill: #94a3b8;
+      text-transform: uppercase;
+    }
+    .kpi-val {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      fill: #f8fafc;
+    }
+
+    /* CSS Animations */
+    @keyframes orbFloat1 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(40px, -25px) scale(1.1); }
+    }
+    @keyframes orbFloat2 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(-35px, 30px) scale(0.95); }
+    }
+    @keyframes pulseCard {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.45)); }
+    }
+    @keyframes dashLine {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes waveMove {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-240px); }
+    }
+
+    .anim-orb1 { animation: orbFloat1 10s ease-in-out infinite; }
+    .anim-orb2 { animation: orbFloat2 12s ease-in-out infinite; }
+    .anim-card { animation: pulseCard 5s ease-in-out infinite; }
+    .anim-dash {
+      stroke-dasharray: 6 6;
+      animation: dashLine 2.5s linear infinite;
+    }
+    .anim-wave {
+      animation: waveMove 8s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="16" class="bg" />
+
+  <!-- Subtle Tech Grid -->
+  <g>
+    <line x1="100" y1="0" x2="100" y2="420" class="grid-line" />
+    <line x1="250" y1="0" x2="250" y2="420" class="grid-line" />
+    <line x1="400" y1="0" x2="400" y2="420" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="420" class="grid-line" />
+    <line x1="700" y1="0" x2="700" y2="420" class="grid-line" />
+    <line x1="850" y1="0" x2="850" y2="420" class="grid-line" />
+    <line x1="1000" y1="0" x2="1000" y2="420" class="grid-line" />
+    <line x1="1150" y1="0" x2="1150" y2="420" class="grid-line" />
+
+    <line x1="0" y1="70" x2="1200" y2="70" class="grid-line" />
+    <line x1="0" y1="140" x2="1200" y2="140" class="grid-line" />
+    <line x1="0" y1="210" x2="1200" y2="210" class="grid-line" />
+    <line x1="0" y1="280" x2="1200" y2="280" class="grid-line" />
+    <line x1="0" y1="350" x2="1200" y2="350" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Glowing Orbs in the background -->
+  <g class="anim-orb1">
+    <circle cx="1020" cy="110" r="160" fill="#6366f1" opacity="0.18" filter="url(#glow)" />
+    <circle cx="150" cy="340" r="130" fill="#0ea5e9" opacity="0.12" filter="url(#glow)" />
+  </g>
+  <g class="anim-orb2">
+    <circle cx="890" cy="300" r="150" fill="#ec4899" opacity="0.14" filter="url(#glow)" />
+    <circle cx="620" cy="60" r="110" fill="#8b5cf6" opacity="0.12" filter="url(#glow)" />
+  </g>
+
+  <!-- Dynamic Animated Chart Wave Line in Background -->
+  <g opacity="0.35">
+    <path class="anim-dash" d="M -50,310 Q 150,220 350,270 T 750,200 T 1150,260 T 1350,180" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+    <path d="M -50,330 Q 180,260 400,290 T 800,230 T 1200,290" fill="none" stroke="#a855f7" stroke-width="1.8" stroke-opacity="0.4" />
+  </g>
+
+  <!-- Dynamic Floating Live Metrics Cards (Right Side) -->
+  <g transform="translate(820, 50)" class="anim-card">
+    <!-- Card 1: CSAT -->
+    <rect x="0" y="0" width="310" height="85" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="36" cy="42" r="18" fill="#10b981" opacity="0.2" />
+    <text x="36" y="47" text-anchor="middle" font-size="16">⭐</text>
+    <text x="68" y="34" class="kpi-title">Average CSAT Score</text>
+    <text x="68" y="62" class="kpi-val">94.8% <tspan font-size="13" fill="#10b981" font-weight="600">▲ +4.2%</tspan></text>
+
+    <!-- Card 2: SLA Breach Rate -->
+    <g transform="translate(20, 105)">
+      <rect x="0" y="0" width="310" height="85" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+      <circle cx="36" cy="42" r="18" fill="#0ea5e9" opacity="0.2" />
+      <text x="36" y="47" text-anchor="middle" font-size="16">⚡</text>
+      <text x="68" y="34" class="kpi-title">First Contact Resolution</text>
+      <text x="68" y="62" class="kpi-val">82.4% <tspan font-size="13" fill="#38bdf8" font-weight="600">▲ +6.1%</tspan></text>
+    </g>
+
+    <!-- Card 3: Ticket Volume AI Triage -->
+    <g transform="translate(-10, 210)">
+      <rect x="0" y="0" width="310" height="85" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+      <circle cx="36" cy="42" r="18" fill="#8b5cf6" opacity="0.2" />
+      <text x="36" y="47" text-anchor="middle" font-size="16">🤖</text>
+      <text x="68" y="34" class="kpi-title">AI Auto-Triage &amp; SLAs</text>
+      <text x="68" y="62" class="kpi-val">&lt; 1.8s <tspan font-size="13" fill="#a855f7" font-weight="600">99.4% SLA</tspan></text>
+    </g>
+  </g>
+
+  <!-- Foreground Main Branding Content (Safe Left Anchor, Never Hidden) -->
+  <!-- Tagline Pill -->
+  <g transform="translate(80, 56)">
+    <rect x="0" y="0" width="280" height="28" rx="14" fill="#0369a1" opacity="0.3" stroke="#0284c7" stroke-width="1" />
+    <circle cx="16" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="19" class="tagline-text">Curated Ecosystem &amp; Guide</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="142" class="title-text">Customer Experience &amp;</text>
+  <text x="80" y="192" class="title-text">Service Analytics</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="238" class="subtitle-text">Curated landscape of Enterprise SaaS &amp; Open-Source tools for</text>
+  <text x="80" y="266" class="subtitle-text">Support Ticket Intelligence, CSAT / NPS &amp; Customer Journey Analytics</text>
+
+  <!-- Feature Interactive Pills -->
+  <g transform="translate(80, 316)">
+    <!-- Pill 1 -->
+    <g>
+      <rect x="0" y="0" width="132" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="20" y="22" class="pill-text">🎯 CSAT / NPS</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(142, 0)">
+      <rect x="0" y="0" width="168" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">📊 Ticket Analytics</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(320, 0)">
+      <rect x="0" y="0" width="168" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">🚀 Journey Mapping</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(498, 0)">
+      <rect x="0" y="0" width="162" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="18" y="22" class="pill-text">🤖 AI Triage &amp; SLAs</text>
+    </g>
+  </g>
+
+  <!-- Border Accent -->
+  <rect x="0" y="0" width="1200" height="420" rx="16" fill="none" stroke="#475569" stroke-width="1.5" stroke-opacity="0.4" />
+  <rect x="0" y="416" width="1200" height="4" fill="url(#titleGrad)" />
+</svg>
